@@ -1,4 +1,3 @@
-
 /*********************************TAG SELECTORS*********************************/
 body {
   background-color: #EDEDED;
@@ -21,8 +20,11 @@ hr {
 }
 
 /*********************************CLASS SELECTORS*********************************/
+.profile_img {
+  border-radius: 50%;
+  width: 200px;
+}
 
- .profile_img{
-   border-radius: 50%;
-   width: 200px;
- }
+.profile_img:hover{
+  opacity: 0.5;
+}
